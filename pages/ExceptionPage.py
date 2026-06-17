@@ -19,6 +19,9 @@ class ExceptionPage:
     def click_add_button(self):
         self.button_add.click()
 
+    def navigate(self):
+        self.page.goto("https://practicetestautomation.com/practice-test-exceptions/")
+
 
     def click_edit_button(self):
         self.textbox_edit.click()
